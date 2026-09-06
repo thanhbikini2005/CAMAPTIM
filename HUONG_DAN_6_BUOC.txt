@@ -1,0 +1,11 @@
+BOT QUÉT CÁ MẬP + WYCKOFF - 6 BƯỚC
+
+0) ĐỔI token Telegram vì token cũ đã bị dán trong chat.
+1) GitHub -> New repository -> tạo repo Private.
+2) Upload toàn bộ file/folder trong gói ZIP này.
+3) Repo -> Settings -> Secrets and variables -> Actions:
+   - TELEGRAM_BOT_TOKEN = token MỚI
+   - TELEGRAM_CHAT_ID = 1242874545
+4) Actions -> Shark & Wyckoff Scanner -> Run workflow -> telegram_test.
+5) Nếu Telegram nhận test OK -> Run workflow -> scan.
+6) Sau đó bot tự chạy 15:35 VN, Thứ 2-Thứ 6.
